@@ -1,3 +1,9 @@
+import Presente from "../components/Presente";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <Presente />
+    </div>
+  );
 }
