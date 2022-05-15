@@ -8,6 +8,7 @@
 }
 .estrutura {
   display: flex;
+  flex-direction: column-reverse;
   flex-grow: 1;
   border-right: 5px solid brown;
   border-top: 5px solid brown;
