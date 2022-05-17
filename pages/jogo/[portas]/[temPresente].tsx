@@ -5,7 +5,7 @@ import { atualizarPortas, criarPortas } from "../../../functions/portas";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function jogo() {
+export default function Jogo() {
   const router = useRouter();
 
   const [valido, setValido] = useState(false);
