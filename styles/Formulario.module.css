@@ -1,14 +1,19 @@
 .formulario {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+.formulario > div {
+  display: flex;
+}
 
 .link {
   display: flex;
-  flex: "1";
+  flex: 1;
   justify-content: center;
   align-items: center;
   margin: 0;
+  cursor: pointer;
 }
