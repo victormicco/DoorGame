@@ -4,6 +4,7 @@ import Porta from "../../../components/Porta";
 import { atualizarPortas, criarPortas } from "../../../functions/portas";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Footer from "../../../components/Footer";
 
 export default function Jogo() {
   const router = useRouter();
@@ -53,6 +54,7 @@ export default function Jogo() {
           <button>Reiniciar Jogo</button>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }

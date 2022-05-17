@@ -3,6 +3,7 @@ import Cartao from "../components/Cartao";
 import Link from "next/link";
 import EntradaNumerica from "./../components/EntradaNumerica";
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 export default function Formulario() {
   const [qtdePortas, setQtdePortas] = useState(3);
@@ -37,6 +38,8 @@ export default function Formulario() {
             <h2 className={styles.link}>Iniciar</h2>
           </Link>
         </Cartao>
+
+        <Footer />
       </div>
     </div>
   );
